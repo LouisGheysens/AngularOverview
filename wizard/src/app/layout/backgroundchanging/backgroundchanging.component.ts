@@ -7,13 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BackgroundchangingComponent implements OnInit {
 
-  test!: string;
+  test: string | undefined;
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
-  
 
 }

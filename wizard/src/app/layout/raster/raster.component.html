@@ -1,1 +1,11 @@
-<p>raster works!</p>
+<br>
+<br>
+<div>
+    <label>X</label>
+    <input type="text" [(ngModel)]="rasterX"/>
+</div><br>
+<div>
+    <label>Y</label>
+    <input type="text" [(ngModel)]="rasterY"/>
+</div>
+<canvas id="canvas" (mouseover)='over()' (mouseout)='out()'></canvas>

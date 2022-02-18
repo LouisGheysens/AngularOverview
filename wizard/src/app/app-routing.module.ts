@@ -9,6 +9,9 @@ import { ResizeComponent } from './layout/resize/resize.component';
 import { ColorpickermaterialComponent } from './layout/colorpickermaterial/colorpickermaterial.component';
 import { BackgroundchangingComponent } from './layout/backgroundchanging/backgroundchanging.component';
 import { InputcrudComponent } from './layout/inputcrud/inputcrud.component';
+import { compileClassMetadata } from '@angular/compiler';
+import { RasterComponent } from './layout/raster/raster.component';
+import { RulesComponent } from './layout/rules/rules.component';
 
 const routes: Routes = [
   {
@@ -52,6 +55,14 @@ const routes: Routes = [
   {
     path: 'listcrud',
     component: InputcrudComponent
+  },
+  {
+    path: 'raster',
+    component: RasterComponent
+  },
+  {
+    path: 'rules',
+    component: RulesComponent
   }
 ];
 
